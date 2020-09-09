@@ -6,7 +6,7 @@ Bienvenido al repositorio de ejemplos sobre programación orientada a objetos y 
 
 
 ## Unidad temática 1. Herencia y polimorfismo en la POO
-1.1 Encapsulamiento e implicación del ocultamiento de información
+1.1 - Encapsulamiento e implicación del ocultamiento de información
 1.2 Polimorfismo por sobre carga
 1.3 Herencia simple: implicación , modelado en UML y uso en código
 1.4 Polimorfismo por sobre esc ritura , ligadura dinámica y uso en código
