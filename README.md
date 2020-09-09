@@ -13,22 +13,22 @@ Bienvenido al repositorio de ejemplos sobre programación orientada a objetos y 
 - Atributos y métodos de clase : implicación , modelado en UML y uso en código
 
 ## Unidad temática 2. Conceptos avanzados de la POO
-2.1 Relaciones entre clases : implicación, modelado en UML y en código  
-2.2 Manejo de excepciones: implicación , modelado en UML mediante diagramas de secuenc ias y en código  
-2.3 Clases abstractas e interfaces: implicación , modelado en UML y uso en código  
-2.4 Herencia simple vs selectiva , múltiple y virtual: : implicación , modelado en UML y uso en código  
-2.5 Persistencia de objetos y alternativas de persistencia y el patrón de diseño DAO.
+- Relaciones entre clases : implicación, modelado en UML y en código  
+- Manejo de excepciones: implicación , modelado en UML mediante diagramas de secuenc ias y en código  
+- Clases abstractas e interfaces: implicación , modelado en UML y uso en código  
+- Herencia simple vs selectiva , múltiple y virtual: : implicación , modelado en UML y uso en código  
+- Persistencia de objetos y alternativas de persistencia y el patrón de diseño DAO.
 
 ## Unidad temática 3. Interfaz gráfica de usuario y programación orientada a eventos
-3.1 El paradigma orientado a eventos  
-3.2 Bibliotecas de clases de interfaz gráfica de usuario
-3.3 El patrón de diseño Observar : vista estática con diagrama UML de clases y dinámica con diagrama UML de secuencias
-3.4 Implementac ión de interfaz gráfica de usuario
+- El paradigma orientado a eventos  
+- Bibliotecas de clases de interfaz gráfica de usuario
+- El patrón de diseño Observar : vista estática con diagrama UML de clases y dinámica con diagrama UML de secuencias
+- Implementac ión de interfaz gráfica de usuario
 
 ## Unidad temática 4. Persistencia en POO
-4.1 Clases genéricas  
-4.2 Colecciones e iteradores
-4.3 Persistencia de objetos y alternativas de persistencia y el patrón de diseño DAO.
+- Clases genéricas  
+- Colecciones e iteradores
+- Persistencia de objetos y alternativas de persistencia y el patrón de diseño DAO.
 
 
 > Códigos fuentes en Java, C++ y Python.
