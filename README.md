@@ -9,7 +9,7 @@ Bienvenido al repositorio de ejemplos sobre programación orientada a objetos y 
 - Encapsulamiento e implicación del ocultamiento de información
 - Polimorfismo por sobre carga
 - Herencia simple: implicación , modelado en UML y uso en código
-- Polimorfismo por sobre esc ritura , ligadura dinámica y uso en código
+- Polimorfismo por sobre escritura , ligadura dinámica y uso en código
 - Atributos y métodos de clase : implicación , modelado en UML y uso en código
 
 ## Unidad temática 2. Conceptos avanzados de la POO
