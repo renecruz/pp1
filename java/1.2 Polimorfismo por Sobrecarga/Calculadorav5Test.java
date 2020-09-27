@@ -22,7 +22,7 @@ class CalculadoraV5 {
 	}
 }
 
-public class CalculadoraV4Test {
+public class CalculadoraV5Test {
 	public static void main(String[] args) {
 		CalculadoraV5 calculadora = new CalculadoraV5();
 		System.out.println("La suma de 3 + 6 es: " +  calculadora.sumar(3,6) ); // OK 👍🏼
