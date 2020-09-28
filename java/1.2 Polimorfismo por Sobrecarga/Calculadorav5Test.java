@@ -11,7 +11,7 @@ class CalculadoraV5 {
 		return (Integer.parseInt(a) + Integer.parseInt(b));
 	}
 
-	public Double sumar(String a, String b, char tipo) {
+	public double sumar(String a, String b, char tipo) {
 		if (tipo == 'i') {
 			return (double) (Integer.parseInt(a) + Integer.parseInt(b));
 		} else if (tipo == 'd'){
@@ -22,7 +22,7 @@ class CalculadoraV5 {
 	}
 }
 
-public class CalculadoraV4Test {
+public class CalculadoraV5Test {
 	public static void main(String[] args) {
 		CalculadoraV5 calculadora = new CalculadoraV5();
 		System.out.println("La suma de 3 + 6 es: " +  calculadora.sumar(3,6) ); // OK 👍🏼
