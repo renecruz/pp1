@@ -1,6 +1,6 @@
 # Paradigmas de Programación 1
 
-Bienvenido al repositorio de ejemplos sobre programación orientada a objetos y remas relacionados con los **Paradigmas de programación** y su aplicación para crear GUI y Persistencia de datos.
+Bienvenido al repositorio de ejemplos sobre programación orientada a objetos y temas relacionados con los **Paradigmas de programación** y su aplicación para crear GUI y Persistencia de datos.
 
 
 
