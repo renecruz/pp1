@@ -10,7 +10,7 @@ public class Seleccion {
     System.out.println(boxeador);
     // {nombre='Canelo Álvarez', edad='30', estatura='1.75'}
     boxeador.entrenar(); // Entrenando duro!
-    boxeador.competir(); // Ganemos esta competencia!
+    boxeador.competir(); // ¡Ganemos esta competencia!
 
     Futbolista futbolista = new Futbolista("Lionel Messi", 33, 1.7f, "Delantero");
     System.out.println(futbolista);

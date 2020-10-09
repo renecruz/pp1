@@ -14,7 +14,7 @@ public class Deportista {
   }
 
   public void competir() {
-    System.out.println("Ganemos esta competencia!");
+    System.out.println("¡Ganemos esta competencia!");
   }
 
   @Override
