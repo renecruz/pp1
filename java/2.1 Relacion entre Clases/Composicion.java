@@ -28,11 +28,12 @@ class Tarjetahabiente {
   private String telefono;
   private List<Tarjeta> tarjetas;
 
-  public Tarjetahabiente(String nombre, String direccion, String telefono) {
+  public Tarjetahabiente(String nombre, String direccion, String telefono, Tarjeta tarjeta) {
     this.nombre = nombre;
     this.direccion = direccion;
     this.telefono = telefono;
     this.tarjetas = new ArrayList<>();
+    this.tarjetas.add(tarjeta);
   }
 
   public void addTarjeta(Tarjeta tarjeta) {
@@ -57,8 +58,10 @@ public class Composicion {
   public static void main(String[] args) {
     Tarjetahabiente cliente = new Tarjetahabiente("Claudia Fernández", 
                                                   "Calle Anastacia #2", 
-                                                  "2459873451");
-    cliente.addTarjeta(new Tarjeta("1234-5678-9182-73644", "09/22", 666));
+                                                  "2459873451", // Primer tarjeta
+                                                  new Tarjeta("1234-5678-9182-73644", "09/22", 666));  
+                                                  
+    cliente.addTarjeta(new Tarjeta("9900-8877-6655-4433", "11/21", 112)); // Segunda tarjeta                                             
     System.out.println(cliente);
   }
 }

@@ -21,10 +21,14 @@ class Tienda {
   private String direccion;
   private Gerente gerente; 
 
-  public Tienda(String nombreTienda, String direccion, Gerente gerente) {
+  public Tienda(String nombreTienda, String direccion) {
     this.nombreTienda = nombreTienda;
     this.direccion = direccion;  
-    this.gerente = gerente;  
+    
+  }
+
+  public void setGerente(Gerente gerente) {
+    this.gerente = gerente;
   }
 
   @Override
@@ -42,8 +46,8 @@ public class Agregacion {
   // Se interpreta como "tiene un..."
   public static void main(String[] args) {
     Tienda tienda = new Tienda("Patio Valle de Chalco", 
-                               "Blvrd Juan Pablo II 370, El Agostadero", 
-                               new Gerente("José Alcántara Díaz", "7223456789"));
+                               "Blvrd Juan Pablo II 370, El Agostadero");
+    tienda.setGerente(new Gerente("José Alcántara Díaz", "7223456789"));  
     System.out.println(tienda);
   }
 }
