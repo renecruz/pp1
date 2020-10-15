@@ -23,8 +23,7 @@ class Tienda {
 
   public Tienda(String nombreTienda, String direccion) {
     this.nombreTienda = nombreTienda;
-    this.direccion = direccion;  
-    
+    this.direccion = direccion;      
   }
 
   public void setGerente(Gerente gerente) {
