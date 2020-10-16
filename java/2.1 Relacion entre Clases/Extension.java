@@ -25,7 +25,7 @@ class VendedorEventual extends Vendedor {
 
   public VendedorEventual(String nombre, int claveVendedor, String departamento, 
                           int diasTrabajados, float sueldoPorDia) {
-  super(nombre, claveVendedor, departamento);
+    super(nombre, claveVendedor, departamento);
     this.diasTrabajados = diasTrabajados;
     this.sueldoPorDia = sueldoPorDia;
   }
