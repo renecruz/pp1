@@ -5,4 +5,11 @@ public class Boxeador extends Deportista{
     super(nombre, edad, estatura);
     this.peso = peso;
   }  
+
+  @Override
+  public String toString() {
+    return "{" + super.toString() +
+      " peso='" + peso + "'" +
+      "}";
+  }
 }
